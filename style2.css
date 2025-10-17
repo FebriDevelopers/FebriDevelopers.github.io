@@ -1,0 +1,21 @@
+.dropdown2 .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  z-index: 1;
+  background: white;
+  padding: 2em;
+  text-align: left;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: all 300ms ease-in-out;
+}
+.dropdown-content li a{
+  color: #0B0B45;
+}
+.dropdown2:hover .dropdown-content{display: block;}
+#text{
+  text-transform: uppercase;
+  font-family: "lovelo",sans-serif;
+}
