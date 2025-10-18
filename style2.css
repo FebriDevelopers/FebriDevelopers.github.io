@@ -4,7 +4,7 @@
   top: 100%; 
   left: 0;
   z-index: 1;
-  background: white;
+  background: #6d9fca;;
   padding: 2em;
   text-align: left;
   border-radius: 10px;
@@ -12,10 +12,59 @@
   transition: all 300ms ease-in-out;
 }
 .dropdown-content li a{
-  color: #0B0B45;
+  color: #ffffff;
+  text-align: left;
+}
+.dropdown-content li{
+  border-bottom: 1px solid rgb(27, 95, 185);
 }
 .dropdown2:hover .dropdown-content{display: block;}
 #text{
   text-transform: uppercase;
   font-family: "lovelo",sans-serif;
+  user-select: none;
+}
+footer{
+  width: 100%;
+  height: 700px;
+  background-color: #678cac;
+  border-radius: 50px 50px 0 0 ;
+}
+footer h2{
+  text-align: center;
+  padding-top: 30px;
+  color: #ffffff;
+  font-family: "lovelo",sans-serif;
+  user-select: none;}
+.link-html{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1,1fr);
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  padding: 50px;
+}
+footer  a{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+footer a:nth-child(odd){
+  background: rgb(36, 74, 99);
+}
+footer a:nth-child(odd):hover{
+  background: #083055;
+}
+footer a:nth-child(even):hover{
+  background: #8bb0d1;
+}
+footer a:nth-child(even){
+  background: #4b97df; ;
+}
+
+.medsos{
+  text-align: center;
+  margin: 10px;
 }
