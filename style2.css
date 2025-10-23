@@ -150,3 +150,57 @@ i{
     opacity: 1;
   }
 }
+
+@media (max-width: 750px) {
+  .link-html {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  .dokumentasi-slide img {
+    width: 250px;
+    height: 150px;
+  }
+  .medsos {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .medsos a{
+    padding: 1em;
+    font-size: medium;
+    width: 260px;
+  }
+  .icon-footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .link-html {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  footer h2 {
+    font-size: 1.2em;
+  }
+  .dokumentasi-slide img {
+    width: 200px;
+    height: 120px;
+  }
+  .medsos {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .medsos a{
+    padding: 1em;
+    font-size: small;
+    width: 210px;
+  }
+  .icon-footer {
+    font-size: 9px;
+  }
+  .container-items {
+    gap: 2em;
+  }
+}

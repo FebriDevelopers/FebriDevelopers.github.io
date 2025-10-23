@@ -128,7 +128,7 @@ header h3{
     padding-top: 1em;
   }
 }
-@media (max-width:650px){
+@media (max-width:750px){
   .logo{
     width: 70px
   }
@@ -145,7 +145,17 @@ header h3{
   header h3{
     padding-top: 1em;
   }
-  .containerImage img{
-    width: 0px;
+  .mainPhoto-Container {
+    height: 40vw;
+  }
+  .content-photo {
+    padding-top: 10vw;
+  }
+  .content-photo h1 {
+    font-size: 1.5em;
+  }
+  .content-photo button {
+    padding: 6px;
+    font-size: 12px;
   }
 }
