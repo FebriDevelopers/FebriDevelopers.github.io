@@ -159,3 +159,41 @@ header h3{
     font-size: 12px;
   }
 }
+
+@media (max-width: 768px) {
+  .mainPhoto-Container {
+    height: 50vh;
+  }
+  .content-photo {
+    padding-top: 5vh;
+  }
+  .content-photo h1 {
+    font-size: 2em;
+  }
+  .content-photo button {
+    padding: 8px;
+    font-size: 14px;
+  }
+  ul {
+    gap: 3vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainPhoto-Container {
+    height: 60vh;
+  }
+  .content-photo {
+    padding-top: 10vh;
+  }
+  .content-photo h1 {
+    font-size: 3em;
+  }
+  .content-photo button {
+    padding: 12px;
+    font-size: 16px;
+  }
+  ul {
+    gap: 2vw;
+  }
+}

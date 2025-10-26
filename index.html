@@ -77,27 +77,34 @@
     </section>
     <!-- slide dokumentasi -->
     <div class="dokumentasi-slide">
-      <img src="./img/dokumentasi osis/osis1.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis2.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis3.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis4.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis5.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis6.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis7.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis8.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis12.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis13.jpeg" alt="osis" loading="lazy" class="fullscreen">            
-      <img src="./img/dokumentasi osis/osis14.jpeg" alt="osis" loading="lazy" class="fullscreen">
-      <img src="./img/dokumentasi osis/osis15.jpeg" alt="osis" loading="lazy" class="fullscreen">
-    </div>
+      <img src="./img/dokumentasi osis/osis1.jpeg" alt="1" loading="lazy" onclick="openImage(1)" >
+      <img src="./img/dokumentasi osis/osis2.jpeg" alt="2" loading="lazy" onclick="openImage(2)" >
+      <img src="./img/dokumentasi osis/osis3.jpeg" alt="3" loading="lazy" onclick="openImage(3)" >
+      <img src="./img/dokumentasi osis/osis4.jpeg" alt="4" loading="lazy" onclick="openImage(4)" >
+      <img src="./img/dokumentasi osis/osis5.jpeg" alt="5" loading="lazy" onclick="openImage(5)" >
+      <img src="./img/dokumentasi osis/osis6.jpeg" alt="6" loading="lazy" onclick="openImage(6)" >
+      <img src="./img/dokumentasi osis/osis7.jpeg" alt="7" loading="lazy" onclick="openImage(7)" >
+      <img src="./img/dokumentasi osis/osis8.jpeg" alt="8" loading="lazy" onclick="openImage(8)" >
+      <img src="./img/dokumentasi osis/osis12.jpeg" alt="9" loading="lazy" onclick="openImage(9)">
+      <img src="./img/dokumentasi osis/osis13.jpeg" alt="10" loading="lazy" onclick="openImage(10)">            
+      <img src="./img/dokumentasi osis/osis14.jpeg" alt="11" loading="lazy" onclick="openImage(11)">
+      <img src="./img/dokumentasi osis/osis15.jpeg" alt="12" loading="lazy" onclick="openImage(12)">
+    </div
   </section>
   <!-- fullscreen image -->
   
   <section class="shadow">
     <div class="image">
-      <img src="./img/foto1.jpg" alt="foto">
-      <button type="button" onclick=""><</button>
-      <button type="button" onclick="">></button>
+      <h4 id="index">1/1</h4>
+  
+      <button type="button" onclick="prevImg()" class="back">&larr;</button>
+      <img src="./img/foto1.jpg" alt="foto" class="foto-temp">
+      <button type="button" onclick="nextImg()" class="next">&rarr;</button>
+      <h3 class="caption">pelantikan osis masa bakti 2025/2026</h3>
+    </div>
+    <div class="toggle-menu">
+      <i class="bi bi-download" onclick="download()"></i>
+      <i class="bi bi-x" onclick="closeWin()"></i>
     </div>
   </section>
   
@@ -141,17 +148,25 @@
     </div>
   </section>
   <div class="medsos">
-      <i class="bi bi-envelope-fill"></i>
-      <a href="mailto:febriputratriadi33@gmail.com" class="icon-footer">febriputratriadi33@gmail.com</a>
-      
-      <i class="bi bi-instagram"></i>
-      <a href="https://www.instagram.com/smaykppdumai?utm_source=ig_web_button_share_sheet&igsh=MTQ2M2o2dDl0c256eg==" class="icon-footer">SMASYKPPDUMAI</a>
-      
-      
-      <i class="bi bi-youtube"></i>
-      <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCbL1Ar_2fZwnr2KHACE35ww%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAacewV2n8IDyfNgepfH24vvUIw1UaJ9fpqK9C1srIxIk9BEvGbJNLyxLBHDsDg_aem_LWwM-Lyvphm-mRp6HLzYnQ&e=AT2-89ZWXxfIjj6Ctz2nwsPbwZM3ImmBfaHIhRXdWf16xRFHXzzYuD1hjkIIUqKVVr2_vyw2d2PQy1FqbIU_hAgydcEQrOs1kRckOQyNGw" class="icon-footer">SMAS YKPP</a>
-      <i class="bi bi-whatsapp"></i>
-      <a href="https://wa.me/6289521027851?text=Hai,%20saya%20ingin%20mengajukan%20Keluhan%20pada%20kamu!" class="icon-footer">contact keluhan</a>
+      <div class="social-item">
+        <i class="bi bi-envelope-fill"></i>
+        <a href="mailto:osissmasykpp" class="icon-footer">osissmasykpp</a>
+      </div>
+
+      <div class="social-item">
+        <i class="bi bi-instagram"></i>
+        <a href="https://www.instagram.com/smaykppdumai?utm_source=ig_web_button_share_sheet&igsh=MTQ2M2o2dDl0c256eg==" class="icon-footer">SMASYKPPDUMAI</a>
+      </div>
+
+      <div class="social-item">
+        <i class="bi bi-youtube"></i>
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCbL1Ar_2fZwnr2KHACE35ww%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAacewV2n8IDyfNgepfH24vvUIw1UaJ9fpqK9C1srIxIk9BEvGbJNLyxLBHDsDg_aem_LWwM-Lyvphm-mRp6HLzYnQ&e=AT2-89ZWXxfIjj6Ctz2nwsPbwZM3ImmBfaHIhRXdWf16xRFHXzzYuD1hjkIIUqKVVr2_vyw2d2PQy1FqbIU_hAgydcEQrOs1kRckOQyNGw" class="icon-footer">SMAS YKPP</a>
+      </div>
+
+      <div class="social-item">
+        <i class="bi bi-whatsapp"></i>
+        <a href="https://wa.me/6289521027851?text=Hai,%20saya%20ingin%20mengajukan%20Keluhan%20pada%20kamu!" class="icon-footer">contact keluhan</a>
+      </div>
       </div>
     </footer>
 
