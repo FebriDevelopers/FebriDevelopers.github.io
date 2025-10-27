@@ -51,8 +51,8 @@
       <div class="mainPhoto-Container">
         <div class="content-photo">
           <h1 id="text">Welcome to our official website</h1> 
-          <button type="button" class="visi"">VISI & MISI</button>
-          <button type="button" class="message">send Message!!</button>
+          <button type="button" class="visi""><a href="#">struktur osis</a></button>
+          <button type="button" class="message"><a href="#message">send message</a></button>
         </div>
     </div>
     <!-- bagian 2 -->
@@ -97,14 +97,14 @@
     <div class="image">
       <h4 id="index">1/1</h4>
   
-      <button type="button" onclick="prevImg()" class="back">&larr;</button>
+      <button type="button" onclick="prevImg()" class="back" title="previousImg">&larr;</button>
       <img src="./img/foto1.jpg" alt="foto" class="foto-temp">
-      <button type="button" onclick="nextImg()" class="next">&rarr;</button>
+      <button type="button" onclick="nextImg()" class="next" title="nextImage">&rarr;</button>
       <h3 class="caption">pelantikan osis masa bakti 2025/2026</h3>
     </div>
     <div class="toggle-menu">
-      <i class="bi bi-download" onclick="download()"></i>
-      <i class="bi bi-x" onclick="closeWin()"></i>
+      <i class="bi bi-download" onclick="download()" title="download-file"></i>
+      <i class="bi bi-x" onclick="closeWin()" title="close"></i>
     </div>
   </section>
   
@@ -150,22 +150,22 @@
   <div class="medsos">
       <div class="social-item">
         <i class="bi bi-envelope-fill"></i>
-        <a href="mailto:osissmasykpp" class="icon-footer">osissmasykpp</a>
+        <a href="mailto:osissmasykpp" class="icon-footer" title="email">osissmasykpp</a>
       </div>
 
       <div class="social-item">
         <i class="bi bi-instagram"></i>
-        <a href="https://www.instagram.com/smaykppdumai?utm_source=ig_web_button_share_sheet&igsh=MTQ2M2o2dDl0c256eg==" class="icon-footer">SMASYKPPDUMAI</a>
+        <a href="https://www.instagram.com/smaykppdumai?utm_source=ig_web_button_share_sheet&igsh=MTQ2M2o2dDl0c256eg==" class="icon-footer" title="instagram-smasykpp">SMASYKPPDUMAI</a>
       </div>
 
       <div class="social-item">
         <i class="bi bi-youtube"></i>
-        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCbL1Ar_2fZwnr2KHACE35ww%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAacewV2n8IDyfNgepfH24vvUIw1UaJ9fpqK9C1srIxIk9BEvGbJNLyxLBHDsDg_aem_LWwM-Lyvphm-mRp6HLzYnQ&e=AT2-89ZWXxfIjj6Ctz2nwsPbwZM3ImmBfaHIhRXdWf16xRFHXzzYuD1hjkIIUqKVVr2_vyw2d2PQy1FqbIU_hAgydcEQrOs1kRckOQyNGw" class="icon-footer">SMAS YKPP</a>
+        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCbL1Ar_2fZwnr2KHACE35ww%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAacewV2n8IDyfNgepfH24vvUIw1UaJ9fpqK9C1srIxIk9BEvGbJNLyxLBHDsDg_aem_LWwM-Lyvphm-mRp6HLzYnQ&e=AT2-89ZWXxfIjj6Ctz2nwsPbwZM3ImmBfaHIhRXdWf16xRFHXzzYuD1hjkIIUqKVVr2_vyw2d2PQy1FqbIU_hAgydcEQrOs1kRckOQyNGw" class="icon-footer" title="youtube-Smasykpp">SMAS YKPP</a>
       </div>
 
       <div class="social-item">
-        <i class="bi bi-whatsapp"></i>
-        <a href="https://wa.me/6289521027851?text=Hai,%20saya%20ingin%20mengajukan%20Keluhan%20pada%20kamu!" class="icon-footer">contact keluhan</a>
+        <i class="bi bi-whatsapp" id="message"></i>
+        <a href="https://wa.me/6289521027851?text=Hai,%20saya%20ingin%20mengajukan%20Keluhan%20pada%20kamu!" class="icon-footer" title="Contact-whatsApp">contact keluhan</a>
       </div>
       </div>
     </footer>
