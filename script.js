@@ -21,12 +21,13 @@ const images = [
   "./img/dokumentasi osis/osis13.jpeg",
   "./img/dokumentasi osis/osis14.jpeg",
   "./img/dokumentasi osis/osis15.jpeg",
+  "./img/dokumentasi osis/osis16.jpeg",
+  "./img/dokumentasi osis/osis17.jpeg",
+  "./img/dokumentasi osis/osis18.jpeg",
+  "./img/dokumentasi osis/osis19.jpeg",
   "./img/dokumentasi osis/osis9.jpeg",
   "./img/dokumentasi osis/osis10.jpeg",
   "./img/dokumentasi osis/osis11.jpeg",
-  "./img/dokumentasi osis/osis15.jpeg",
-  "./img/dokumentasi osis/osis15.jpeg",
-  "./img/dokumentasi osis/osis15.jpeg"
 ];
 
 function openImage(index) {

@@ -20,9 +20,10 @@
 }
 .dropdown2:hover .dropdown-content{display: block;}
 #text{
-  text-transform: uppercase;
-  font-family: "lovelo",sans-serif;
+  text-transform: capitalize;
+  font-family: "pinyon script",sans-serif;
   user-select: none;
+  letter-spacing: 3px;
 }
 footer{
   width: 100%;
@@ -71,7 +72,7 @@ i{
 .container-items{
   display: flex;
   gap: 5em;
-  animation: scroll 20s linear infinite;
+  animation: scroll 24s linear infinite;
   padding: 0.5em;
   scroll-behavior: smooth;
 }
@@ -101,7 +102,7 @@ i{
     transform: translateX(100%);
   }
   to{
-    transform: translateX(-130%);
+    transform: translateX(-150%);
   }
 }
 .container-items:hover{
